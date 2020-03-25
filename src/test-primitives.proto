@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package model;
+option java_package = "com.algowebsolve.webapp";
+
+message TestPrimitives {
+    int32 anInt = 1;
+    int64 aLong = 2;
+    float aFloat = 3;
+    double aDouble = 4;
+    bool aBoolean = 5;
+    string aString = 6;
+}
